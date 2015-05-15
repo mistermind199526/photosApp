@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
-@interface ViewController : UIViewController
+
+
+@interface ViewController : UIViewController <MFMailComposeViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIView *frameForCapture;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;

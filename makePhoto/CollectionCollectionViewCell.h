@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h> 
 
-@interface CollectionCollectionViewCell : UICollectionViewCell
+@interface CollectionCollectionViewCell : UICollectionViewCell <MFMailComposeViewControllerDelegate>
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

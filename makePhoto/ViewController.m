@@ -122,6 +122,25 @@ AVCaptureStillImageOutput *stillImageOutput;
 
     return cell;
 }
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    UIImage *image = self.imageArray[indexPath.row];
+    NSData *imageData = UIImageJPEGRepresentation(image ,1.0);
 
-
+    MFMailComposeViewController *mailController=[[MFMailComposeViewController alloc]init];
+    [mailController setMailComposeDelegate:self];
+//    NSString *adress=[NSArray arrayWithObject:@"stefan@mail.moldovan"];
+    [mailController addAttachmentData:imageData mimeType:@"image/jpeg" fileName:@"screen"];
+//    [mailController setToRecipients:adress];
+    [mailController setMessageBody:@"MessageHere" isHTML:NO];
+    [mailController setSubject:@"subject"];
+    [mailController setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
+    [self presentViewController:mailController animated:YES completion:nil];
+    
+}
+-(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end
+
