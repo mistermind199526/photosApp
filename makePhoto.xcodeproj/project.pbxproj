@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA00AD7D1FA6E40A6163EB2C /* libPods-makePhoto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1EFDE98798518C1DA1D19A /* libPods-makePhoto.a */; };
+		F41A65C31B033EA200C1061E /* 300px-Button_Icon_Black.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = F41A65C21B033EA200C1061E /* 300px-Button_Icon_Black.svg.png */; };
+		F41A65C71B034CC800C1061E /* CollectionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F41A65C51B034CC800C1061E /* CollectionCollectionViewCell.m */; };
+		F41A65C81B034CC800C1061E /* CollectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41A65C61B034CC800C1061E /* CollectionCollectionViewCell.xib */; };
+		F4FC90951B022B08009CD98F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FC90941B022B08009CD98F /* main.m */; };
+		F4FC90981B022B08009CD98F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FC90971B022B08009CD98F /* AppDelegate.m */; };
+		F4FC909B1B022B08009CD98F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FC909A1B022B08009CD98F /* ViewController.m */; };
+		F4FC909E1B022B08009CD98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FC909C1B022B08009CD98F /* Main.storyboard */; };
+		F4FC90A01B022B08009CD98F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FC909F1B022B08009CD98F /* Images.xcassets */; };
+		F4FC90A31B022B08009CD98F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FC90A11B022B08009CD98F /* LaunchScreen.xib */; };
+		F4FC90AF1B022B08009CD98F /* makePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FC90AE1B022B08009CD98F /* makePhotoTests.m */; };
+		F4FC90B91B022EC6009CD98F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FC90B81B022EC6009CD98F /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4FC90A91B022B08009CD98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4FC90871B022B08009CD98F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4FC908E1B022B08009CD98F;
+			remoteInfo = makePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E1EFDE98798518C1DA1D19A /* libPods-makePhoto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-makePhoto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559E4805924D9E9A929F377B /* Pods-makePhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-makePhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-makePhoto/Pods-makePhoto.release.xcconfig"; sourceTree = "<group>"; };
+		F41A65C21B033EA200C1061E /* 300px-Button_Icon_Black.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "300px-Button_Icon_Black.svg.png"; path = "../../../Downloads/300px-Button_Icon_Black.svg.png"; sourceTree = "<group>"; };
+		F41A65C41B034CC800C1061E /* CollectionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCollectionViewCell.h; sourceTree = "<group>"; };
+		F41A65C51B034CC800C1061E /* CollectionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCollectionViewCell.m; sourceTree = "<group>"; };
+		F41A65C61B034CC800C1061E /* CollectionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCollectionViewCell.xib; sourceTree = "<group>"; };
+		F4FC908F1B022B08009CD98F /* makePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FC90931B022B08009CD98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FC90941B022B08009CD98F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4FC90961B022B08009CD98F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4FC90971B022B08009CD98F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4FC90991B022B08009CD98F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4FC909A1B022B08009CD98F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4FC909D1B022B08009CD98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4FC909F1B022B08009CD98F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4FC90A21B022B08009CD98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4FC90A81B022B08009CD98F /* makePhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = makePhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FC90AD1B022B08009CD98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FC90AE1B022B08009CD98F /* makePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = makePhotoTests.m; sourceTree = "<group>"; };
+		F4FC90B81B022EC6009CD98F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F5D127B935EA14D83EDAB392 /* Pods-makePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-makePhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-makePhoto/Pods-makePhoto.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4FC908C1B022B08009CD98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FC90B91B022EC6009CD98F /* AVFoundation.framework in Frameworks */,
+				EA00AD7D1FA6E40A6163EB2C /* libPods-makePhoto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FC90A51B022B08009CD98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3576A3548CAA6A61721615 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E1EFDE98798518C1DA1D19A /* libPods-makePhoto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1459B266069C5F359E6DF73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D127B935EA14D83EDAB392 /* Pods-makePhoto.debug.xcconfig */,
+				559E4805924D9E9A929F377B /* Pods-makePhoto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4FC90861B022B08009CD98F = {
+			isa = PBXGroup;
+			children = (
+				F4FC90B81B022EC6009CD98F /* AVFoundation.framework */,
+				F4FC90911B022B08009CD98F /* makePhoto */,
+				F4FC90AB1B022B08009CD98F /* makePhotoTests */,
+				F4FC90901B022B08009CD98F /* Products */,
+				F1459B266069C5F359E6DF73 /* Pods */,
+				3D3576A3548CAA6A61721615 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4FC90901B022B08009CD98F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4FC908F1B022B08009CD98F /* makePhoto.app */,
+				F4FC90A81B022B08009CD98F /* makePhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4FC90911B022B08009CD98F /* makePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				F41A65C41B034CC800C1061E /* CollectionCollectionViewCell.h */,
+				F41A65C51B034CC800C1061E /* CollectionCollectionViewCell.m */,
+				F41A65C61B034CC800C1061E /* CollectionCollectionViewCell.xib */,
+				F4FC90991B022B08009CD98F /* ViewController.h */,
+				F4FC909A1B022B08009CD98F /* ViewController.m */,
+				F4FC90961B022B08009CD98F /* AppDelegate.h */,
+				F4FC90971B022B08009CD98F /* AppDelegate.m */,
+				F4FC909C1B022B08009CD98F /* Main.storyboard */,
+				F41A65C21B033EA200C1061E /* 300px-Button_Icon_Black.svg.png */,
+				F4FC909F1B022B08009CD98F /* Images.xcassets */,
+				F4FC90A11B022B08009CD98F /* LaunchScreen.xib */,
+				F4FC90921B022B08009CD98F /* Supporting Files */,
+			);
+			path = makePhoto;
+			sourceTree = "<group>";
+		};
+		F4FC90921B022B08009CD98F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FC90931B022B08009CD98F /* Info.plist */,
+				F4FC90941B022B08009CD98F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4FC90AB1B022B08009CD98F /* makePhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4FC90AE1B022B08009CD98F /* makePhotoTests.m */,
+				F4FC90AC1B022B08009CD98F /* Supporting Files */,
+			);
+			path = makePhotoTests;
+			sourceTree = "<group>";
+		};
+		F4FC90AC1B022B08009CD98F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FC90AD1B022B08009CD98F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4FC908E1B022B08009CD98F /* makePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FC90B21B022B08009CD98F /* Build configuration list for PBXNativeTarget "makePhoto" */;
+			buildPhases = (
+				A0662C7EF8354EB2D92541B1 /* Check Pods Manifest.lock */,
+				F4FC908B1B022B08009CD98F /* Sources */,
+				F4FC908C1B022B08009CD98F /* Frameworks */,
+				F4FC908D1B022B08009CD98F /* Resources */,
+				5B98325EE10CF413D04499ED /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = makePhoto;
+			productName = makePhoto;
+			productReference = F4FC908F1B022B08009CD98F /* makePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4FC90A71B022B08009CD98F /* makePhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FC90B51B022B08009CD98F /* Build configuration list for PBXNativeTarget "makePhotoTests" */;
+			buildPhases = (
+				F4FC90A41B022B08009CD98F /* Sources */,
+				F4FC90A51B022B08009CD98F /* Frameworks */,
+				F4FC90A61B022B08009CD98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4FC90AA1B022B08009CD98F /* PBXTargetDependency */,
+			);
+			name = makePhotoTests;
+			productName = makePhotoTests;
+			productReference = F4FC90A81B022B08009CD98F /* makePhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4FC90871B022B08009CD98F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Binasystems;
+				TargetAttributes = {
+					F4FC908E1B022B08009CD98F = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = DMNXYK93G5;
+					};
+					F4FC90A71B022B08009CD98F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F4FC908E1B022B08009CD98F;
+					};
+				};
+			};
+			buildConfigurationList = F4FC908A1B022B08009CD98F /* Build configuration list for PBXProject "makePhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4FC90861B022B08009CD98F;
+			productRefGroup = F4FC90901B022B08009CD98F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4FC908E1B022B08009CD98F /* makePhoto */,
+				F4FC90A71B022B08009CD98F /* makePhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4FC908D1B022B08009CD98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41A65C31B033EA200C1061E /* 300px-Button_Icon_Black.svg.png in Resources */,
+				F41A65C81B034CC800C1061E /* CollectionCollectionViewCell.xib in Resources */,
+				F4FC909E1B022B08009CD98F /* Main.storyboard in Resources */,
+				F4FC90A31B022B08009CD98F /* LaunchScreen.xib in Resources */,
+				F4FC90A01B022B08009CD98F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FC90A61B022B08009CD98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B98325EE10CF413D04499ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-makePhoto/Pods-makePhoto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0662C7EF8354EB2D92541B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4FC908B1B022B08009CD98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41A65C71B034CC800C1061E /* CollectionCollectionViewCell.m in Sources */,
+				F4FC909B1B022B08009CD98F /* ViewController.m in Sources */,
+				F4FC90981B022B08009CD98F /* AppDelegate.m in Sources */,
+				F4FC90951B022B08009CD98F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FC90A41B022B08009CD98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FC90AF1B022B08009CD98F /* makePhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4FC90AA1B022B08009CD98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4FC908E1B022B08009CD98F /* makePhoto */;
+			targetProxy = F4FC90A91B022B08009CD98F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4FC909C1B022B08009CD98F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4FC909D1B022B08009CD98F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4FC90A11B022B08009CD98F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4FC90A21B022B08009CD98F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4FC90B01B022B08009CD98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4FC90B11B022B08009CD98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4FC90B31B022B08009CD98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D127B935EA14D83EDAB392 /* Pods-makePhoto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = makePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4FC90B41B022B08009CD98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559E4805924D9E9A929F377B /* Pods-makePhoto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = makePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4FC90B61B022B08009CD98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = makePhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/makePhoto.app/makePhoto";
+			};
+			name = Debug;
+		};
+		F4FC90B71B022B08009CD98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = makePhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/makePhoto.app/makePhoto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4FC908A1B022B08009CD98F /* Build configuration list for PBXProject "makePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FC90B01B022B08009CD98F /* Debug */,
+				F4FC90B11B022B08009CD98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FC90B21B022B08009CD98F /* Build configuration list for PBXNativeTarget "makePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FC90B31B022B08009CD98F /* Debug */,
+				F4FC90B41B022B08009CD98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FC90B51B022B08009CD98F /* Build configuration list for PBXNativeTarget "makePhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FC90B61B022B08009CD98F /* Debug */,
+				F4FC90B71B022B08009CD98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4FC90871B022B08009CD98F /* Project object */;
+}
